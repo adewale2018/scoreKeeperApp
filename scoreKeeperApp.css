@@ -1,0 +1,54 @@
+body{
+	background: pink;
+}
+.container{
+	height: 500px;
+	width: 500px;
+	margin: 50px auto;
+	text-align: center;
+	border: 1px solid #11122b;
+	border-radius: 40px;
+
+}
+.winner{
+	color: white;
+	background: green;
+	padding: 20px;
+	border: 1px solid white;
+	border-radius: 8px;
+}
+h1{
+	color: teal;
+	/*border: 1px solid #11122b;*/
+	padding: 20px;
+	text-align: center;
+	text-decoration: underline;
+	/*border-radius: 25px;*/
+}
+input{
+	width: 200px;
+	height: 20px;
+	box-shadow: 3px 3px 4px black;
+}
+p{
+	font-size: 1.5em;
+}
+#playerOneDisplay, #playerTwoDisplay{
+	font-size: 1.5em;
+}
+#p1btn, #p2btn{
+	padding: 10px;
+	background: teal;
+	color: white;
+	border: 1px solid #11122b;
+	border-radius: 5px;
+	outline: none;
+}
+#reset{
+	padding: 5px; 
+	background: red;
+	color: white;
+	outline: none;
+	border-radius: 2px;
+	border: 1px solid black;
+}
